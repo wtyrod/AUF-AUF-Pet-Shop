@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/principal"
+    tools:context="com.example.rodrigo.navview.login"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="40dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_weight="0.16" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFF"
+        tools:text=" E-mail" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="381dp"
+        android:textColor="#FFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:inputType="textPassword"
+        tools:text=" Senha"
+        />
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/botao"
+        android:text="Entre Já"
+        android:textColor="#1b6380"
+        />
+
+    <Button
+        android:id="@+id/irCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.16"
+        android:text="Não tem uma conta? Cadastre-se."
+        android:textAlignment="center"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+</LinearLayout>

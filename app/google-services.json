@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "141100350471",
+    "firebase_url": "https://aufauf-ffbca.firebaseio.com",
+    "project_id": "aufauf-ffbca",
+    "storage_bucket": "aufauf-ffbca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141100350471:android:29687727960c8fa1",
+        "android_client_info": {
+          "package_name": "NavView"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141100350471-0lnkm6g1ab8q2jk1ia3ho25k2uu1cv17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs4CmwiEoWxu6nT4JP9QBC0fDipaFNQrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
